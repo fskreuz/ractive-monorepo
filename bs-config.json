@@ -1,0 +1,12 @@
+{
+  "server": [
+    "./sandbox",
+    "./packages/node_modules/@ractivejs",
+    "./node_modules"
+  ],
+  "files": [
+    "./sandbox/**/*.{html,htm,css,js}",
+    "./packages/node_modules/@ractivejs/*/dist/**/*.js",
+    "./node_modules/*/dist/**/*.js"
+  ]
+}
