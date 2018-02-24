@@ -1,0 +1,17 @@
+# OS junk
+.DS_Store
+
+# Dependencies
+node_modules/
+!packages/node_modules/
+package-lock.json
+
+# Build directories
+coverage/
+dist/
+bin/
+tmp/
+
+# Log files
+*.log
+*.stackdump

@@ -1,0 +1,14 @@
+dist: trusty
+sudo: false
+language: node_js
+node_js:
+- 'node'
+cache:
+  directories:
+  - node_modules
+script: |
+  set -e
+  npm run make
+  npm run test
+  npm run lcov
+  npm run send
