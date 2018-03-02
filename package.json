@@ -17,6 +17,7 @@
     "browserify": "^16.1.0",
     "commander": "^2.14.1",
     "coveralls": "^3.0.0",
+    "de-indent": "^1.0.2",
     "fs-plus": "^3.0.2",
     "istanbul": "^0.4.5",
     "jquery": "^3.3.1",
